@@ -3,7 +3,7 @@ author = "Arne Rossmann"
 description = "Data Analytics Enterprise Architect"
 profilePicture = "images/profile.jpg"
 displayMode = "dark"
-contentratio = 0.8
+contentratio = 0.7
 mainSections = ["post"]
 
 ## Social links
