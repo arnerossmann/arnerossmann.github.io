@@ -36,7 +36,7 @@ Additionally, we have the three types of ports.
 * Output Ports
 * Control Ports
 
-![data product](/media/dataproduct-Overview.png)
+![data product](/media/Data_Product.png)
 
 This looks really interesting and quite new, if you remember how the usual work in the data & analytics domain was done previously. But times have changed, principles like Infrastructure as Code, serverles, DevOps & DataOps, SRE etc. have changed the game towards more code focussed and software engineering thinking. 
 
