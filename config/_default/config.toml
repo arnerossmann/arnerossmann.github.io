@@ -7,3 +7,5 @@ theme = "anatole"
     category = "categories"
     series = "series"
     tag = "tags"
+
+customCss = ["css/custom.css"]
