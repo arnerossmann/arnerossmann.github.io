@@ -1,8 +1,8 @@
 +++
 author = "Arne Rossmann"
-title = "Data Mesh - "
-date = "2021-11-24"
-description = "not such a new concept after all?"
+title = "Data Mesh - not such a new concept after all?"
+date = "2022-01-28"
+description = "Data Mesh, not such a new concept after all?"
 tags = [
     "data product",
     "data mesh",
@@ -36,7 +36,7 @@ Additionally, we have the three types of ports.
 * Output Ports
 * Control Ports
 
-![data product](./dataproduct-Overview.png)
+![data product](./media/dataproduct-Overview.png)
 
 This looks really interesting and quite new, if you remember how the usual work in the data & analytics domain was done previously. But times have changed, principles like Infrastructure as Code, serverles, DevOps & DataOps, SRE etc. have changed the game towards more code focussed and software engineering thinking. 
 
