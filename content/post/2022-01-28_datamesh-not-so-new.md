@@ -20,7 +20,7 @@ I don't think that I have to tell much about the recent developments on Data Mes
 
 But when we dig deeper into that topic and look on the Data Product there might be some similarities ringing a bell. We'll come to this later.
 
-But how is a Data Product defined(by [Zhamak](https://martinfowler.com/articles/data-mesh-principles.html)?
+But how is a Data Product defined (by [Zhamak](https://martinfowler.com/articles/data-mesh-principles.html))?
 
 > Data product is the node on the mesh that encapsulates three structural components required for its function, providing access to domain's analytical data as a product.
 > 
