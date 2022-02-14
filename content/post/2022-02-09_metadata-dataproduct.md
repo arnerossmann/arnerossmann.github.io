@@ -1,5 +1,4 @@
 +++
-draft = true
 author = "Arne Rossmann"
 title = "Shaking the Kinder egg - or: metadata of Data Products?"
 date = "2022-02-14"
