@@ -20,7 +20,7 @@ Who hasn't done it? shaking the Kinder eggs to "guess" what's inside and raise t
 
 When we deal with data, we don't want to guess. We want to get the clearest view on "what's inside" as possible. And with the *Data Mesh* approach, in with we create the *Data Products* to reuse existing data, this is more important than ever. But how do we do that?
 
-First, let's have a look on 'What is a data product' again. in [the last post](https://arnerossmann.github.io/post/2022-01-28_datamesh-not-so-new/) I sketched the Data Product already. It has two main types of ports (aka as connectors to the outside):
+First, let's have a look on 'What is a data product' again. in [the last post](https://arnerossmann.github.io/post/2022-01-28_datamesh-not-so-new/) I sketched the Data Product already. It has these main elements in it:
 * Infrastructure
 * Code
 * Input & Output Ports
