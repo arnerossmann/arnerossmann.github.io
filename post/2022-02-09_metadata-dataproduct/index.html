@@ -1,0 +1,216 @@
+<!doctype html><html dir=ltr lang=en data-theme=dark><head>
+<title>
+Arne Rossmann
+|
+Shaking the Kinder egg - or: metadata of Data Products?
+</title>
+<meta charset=utf-8><meta name=generator content="Hugo 0.92.2"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name=description content="
+      Let's talk about metadata of Data Products
+
+
+    ">
+<link rel=stylesheet href=/css/main.min.440a169ee4b645c09fe67c6bb076175d3eeac345e8abe5925486ca71a3e5289d.css integrity="sha256-RAoWnuS2RcCf5nxrsHYXXT7qw0Xoq+WSVIbKcaPlKJ0=" crossorigin=anonymous type=text/css>
+<link rel=stylesheet href=/css/markupHighlight.min.058b31f17db60602cc415fd63b0427e7932fbf35c70d8e341a4c39385f5f6f3e.css integrity="sha256-BYsx8X22BgLMQV/WOwQn55MvvzXHDY40Gkw5OF9fbz4=" crossorigin=anonymous type=text/css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=anonymous>
+<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
+<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
+<link rel=canonical href=https://arnerossmann.github.io/post/2022-02-09_metadata-dataproduct/>
+<script type=text/javascript src=/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w=" crossorigin=anonymous></script>
+<script type=text/javascript src=/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus=" crossorigin=anonymous></script>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Shaking the Kinder egg - or: metadata of Data Products?">
+<meta name=twitter:description content="Let's talk about metadata of Data Products">
+<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"post","name":"Shaking the Kinder egg - or: metadata of Data Products?","headline":"Shaking the Kinder egg - or: metadata of Data Products?","alternativeHeadline":"","description":"
+      Let\u0027s talk about metadata of Data Products
+
+
+    ","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/arnerossmann.github.io\/post\/2022-02-09_metadata-dataproduct\/"},"author":{"@type":"Person","name":"Arne Rossmann"},"creator":{"@type":"Person","name":"Arne Rossmann"},"accountablePerson":{"@type":"Person","name":"Arne Rossmann"},"copyrightHolder":{"@type":"Person","name":"Arne Rossmann"},"copyrightYear":"2022","dateCreated":"2022-02-14T00:00:00.00Z","datePublished":"2022-02-14T00:00:00.00Z","dateModified":"2022-02-14T00:00:00.00Z","publisher":{"@type":"Organization","name":"Arne Rossmann","url":"https://arnerossmann.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/arnerossmann.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/arnerossmann.github.io\/post\/2022-02-09_metadata-dataproduct\/","wordCount":"774","genre":["data mesh","architecture"],"keywords":["data product","data mesh","metadata"]}</script>
+</head>
+<body>
+<header><div class="page-top
+animated fadeInDown">
+<a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+<nav>
+<ul class=nav__list id=navMenu>
+<div class=nav__links>
+<li>
+<a href=/ title>Home</a>
+</li>
+<li>
+<a href=/post/ title>Posts</a>
+</li>
+<li>
+<a href=/presentations/ title>Presentations</a>
+</li>
+<li>
+<a href=/about/ title>About</a>
+</li>
+</div>
+<ul>
+<li>
+<a class=theme-switch title="Switch Theme">
+<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</ul>
+</nav>
+</div>
+</header>
+<div class=wrapper>
+<aside><div class="sidebar
+animated fadeInDown">
+<div class=sidebar__content>
+<div class=logo-title>
+<div class=title>
+<img src=/images/profile.jpg alt="profile picture">
+<h3 title><a href=/>Arne Rossmann</a></h3>
+<div class=description>
+<p>Data Analytics Enterprise Architect</p>
+</div>
+</div>
+</div>
+<ul class=social-links>
+<li>
+<a href=https://www.linkedin.com/in/arnerossmann/ rel=me aria-label=Linkedin title=Linkedin>
+<i class="fab fa-linkedin fa-2x" aria-hidden=true></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/arnerossmann rel=me aria-label=GitHub title=GitHub>
+<i class="fab fa-github fa-2x" aria-hidden=true></i>
+</a>
+</li>
+</ul>
+</div><footer class="footer footer--sidebar">
+<div class=by_farbox>
+<ul class=footer__list>
+<li class=footer__item>
+&copy;
+Arne Rossmann
+2022
+</li>
+<li class=footer__item>
+<a href=/imprint/ title>
+imprint
+</a>
+</li>
+</ul>
+</div>
+</footer>
+<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></div>
+</aside>
+<main>
+<div class=autopagerize_page_element>
+<div class=content>
+<div class="post
+animated fadeInDown">
+<div class=post-content>
+<div class=post-title>
+<h1>Shaking the Kinder egg - or: metadata of Data Products?</h1>
+<div class=info>
+<em class="fas fa-calendar-day"></em>
+<span class=date>
+Mon, Feb 14, 2022
+</span>
+<em class="fas fa-stopwatch"></em>
+<span class=reading-time>4-minute read</span>
+</div>
+</div><h1 id=shaking-the-kinder-egg---or-metadata-of-data-products>Shaking the Kinder egg - or: metadata of Data Products</h1>
+<p>Who hasn&rsquo;t done it? shaking the Kinder eggs to &ldquo;guess&rdquo; what&rsquo;s inside and raise the chance of getting one of the figures. We even put them on the vegetable scale to increase the chance (many many years back the figures had higher weight than the assemble stuff). But in the end, it was all guessing.</p>
+<p>When we deal with data, we don&rsquo;t want to guess. We want to get the clearest view on &ldquo;what&rsquo;s inside&rdquo; as possible. And with the <em>Data Mesh</em> approach, in with we create the <em>Data Products</em> to reuse existing data, this is more important than ever. But how do we do that?</p>
+<p>First, let&rsquo;s have a look on &lsquo;What is a data product&rsquo; again. in <a href=https://arnerossmann.github.io/post/2022-01-28_datamesh-not-so-new/>the last post</a> I sketched the Data Product already. It has two main types of ports (aka as connectors to the outside):</p>
+<ul>
+<li>Infrastructure</li>
+<li>Code</li>
+<li>Input & Output Ports</li>
+<li>Control Port</li>
+</ul>
+<p><img src=/media/DataPlatform-DataProduct.png alt="data product"></p>
+<p>Ideally, everything what is done is <em>code</em> based, including setting up the infrastructure (infrastructure as code), data transformation steps etc.</p>
+<p>The required infrastructure for that data product is connected to it. Depending on the type and usage of the product, it can vary. Ususally there&rsquo;re two main types:</p>
+<ul>
+<li>Batch</li>
+<li>Stream</li>
+</ul>
+<p>The input and output ports are the connectors to the data sources (input) and to the data consumers (output). Depending on the type of data product and the data sources and uses cases, these can be regular API endpoints like jdbc, s3, kafka, mqtt, https, &mldr; .</p>
+<p>But the more important (at least for this post) port is the Control Port. Why? Well, with this specific endpoint we get information from and control the defined data product. So let&rsquo;s take an example:</p>
+<blockquote>
+<p>As a business user
+In order to reuse existing data, I want to get the following information from a Data Product within my organization:</p>
+<ul>
+<li>In what domain is that data product?</li>
+<li>Who has created it?</li>
+<li>What information / fields are available?</li>
+<li>when was it updated last time?</li>
+<li>what is the data quality of it?</li>
+<li>what data sources is this Data Product connected to?</li>
+<li>what connection options I have to work with the Data Product?</li>
+</ul>
+</blockquote>
+<p>And here the Control Port comes in.</p>
+<p>This port provides a consistent view on the Data Product. Endpoints are e.g.:</p>
+<ul>
+<li>metadata {name, owner, source systems}</li>
+<li>lineage information</li>
+<li>address of ports {input, output}</li>
+<li>schema {input, output}. link to company ontology</li>
+<li>audit</li>
+<li>metrics, i.e.
+<ul>
+<li>last updated timestamp</li>
+<li>loading frequency</li>
+<li>loading time (how long did it take to load data)</li>
+<li>data volume</li>
+<li>data quality metrics {e.g. # of unmapped records}</li>
+</ul>
+</li>
+</ul>
+<p><img src=/media/DataPlatform-ControlPort.png alt="data product"></p>
+<p>As you can see in the image above, the Control Port collects these information from a wide variety of sources like the Data Catalog, Data Quality Tool, the Data Lineage Tool or the DataOps tool of the Platform Foundation.
+It acts like an endpoint federation, as i.e. usually the Data Catalog tool of choise provides
+*</p>
+<ol>
+<li>a nice integration to publish the data product into the catalog</li>
+<li>an API to get information out of the catalog</li>
+</ol>
+<p>Same applies (or should be applied) to the other components of the Data Trust layer.</p>
+<p>So let&rsquo;s take an example on the metrics, as these are quite common to be asked by the business in order evaluate further usage of the existing Data Product. When the business has easy access to the metrics of a Data Product, it can easily evaluate how much value this Data Product brings it for their use case(s). The exemplary metrics mentioned above give a good overview on typical demands and have their basis in the <a href=https://sre.google/workbook/data-processing/>SRE Workbook</a>.</p>
+<p>But how does the user get these information? Do they have to query the API? Well, these information have to be available as API endpoints to allow automatic processing. But for Business Users there has to be a proper frontend incorporting them and allowing searching, visual exploration and interaction with the underlying information. This can be a custom frontend communicating with underlying API or off the shelf tools. (due to the broad landscape of these tools on the market, a separate post is required to capture that topic)</p>
+<p>So, back to the initial question: Yes, the majority of us has found ways to increase the chance to get a rare mini figure as the surprise in the Kinder eggs. And we were creative with it. But nowadays, when we talk about finding the right Data Product(s) for the use cases, it doesn&rsquo;t need shaking or a scale. In a proper Data Mesh based architecture, all the relevant information are available at the control port and consumable via an API <strong>AND</strong> a proper frontend.</p>
+</div>
+<div class=post-footer>
+<div class=info>
+<span class=separator><a class=category href=/categories/data-mesh/>data mesh</a><a class=category href=/categories/architecture/>architecture</a></span>
+<span class=separator><a class=tag href=/tags/data-product/>data product</a><a class=tag href=/tags/data-mesh/>data mesh</a><a class=tag href=/tags/metadata/>metadata</a></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div><footer class="footer footer--base">
+<div class=by_farbox>
+<ul class=footer__list>
+<li class=footer__item>
+&copy;
+Arne Rossmann
+2022
+</li>
+<li class=footer__item>
+<a href=/imprint/ title>
+imprint
+</a>
+</li>
+</ul>
+</div>
+</footer>
+<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></body>
+</html>
