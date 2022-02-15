@@ -12,6 +12,8 @@ I'm an enthuist Enterprise Architect for Big Data, Cloud, Analytics and the rela
 
 ## Technologies
 
-* Hardware : ![Mac](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/devices/mac.svg) ![RPi](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/devices/raspberrypi.svg)
-* Environment : ![Cloud](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/misc/cloud.svg) ![Azure](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/services/azure.png) ![GCP](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/png/dev/services/gcp.png) ![Docker](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/tools/docker.svg)
-* Languages : ![Golang](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/go.svg) ![Java](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/java.svg) ![Python](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/python.svg) ![JS](https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/dev/languages/js.svg)
+
+* Hardware: ![Mac](https://img.shields.io/badge/HW-Mac-blue?style=for-the-badge&logo=apple) ![RPi](https://img.shields.io/badge/HW-RaspberryPi-blue?style=for-the-badge&logo=raspberrypi) 
+* Languages: ![Golang](https://img.shields.io/badge/DEV-Golang-blue?style=for-the-badge&logo=go) ![Java](https://img.shields.io/badge/DEV-Java-blue?style=for-the-badge&logo=java) ![Python](https://img.shields.io/badge/DEV-Python-blue?style=for-the-badge&logo=python) ![JavaScript](https://img.shields.io/badge/DEV-JavaScript-blue?style=for-the-badge&logo=javascript)
+* Environment : ![Cloud](https://img.shields.io/badge/ENV-CLoud-blue?style=for-the-badge) ![Azure](https://img.shields.io/badge/ENV-Azure-blue?style=for-the-badge&logo=microsoftazure) 
+![GCP](https://img.shields.io/badge/DEV-GCP-blue?style=for-the-badge&logo=googlecloud) ![Docker](https://img.shields.io/badge/DEV-Docker-blue?style=for-the-badge&logo=docker)
