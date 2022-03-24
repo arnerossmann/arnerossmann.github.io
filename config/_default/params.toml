@@ -17,3 +17,8 @@ url = "https://www.linkedin.com/in/arnerossmann/"
 icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/arnerossmann"
+
+[[socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/arnerossmann"
