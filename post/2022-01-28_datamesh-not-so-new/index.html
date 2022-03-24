@@ -1,193 +1,28 @@
-<!doctype html><html dir=ltr lang=en data-theme=dark><head>
-<title>
-Arne Rossmann
+<!doctype html><html dir=ltr lang=en data-theme=dark><head><title>Arne Rossmann
 |
-Data Mesh - not such a new concept after all?
-</title>
-<meta charset=utf-8><meta name=generator content="Hugo 0.92.2"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name=description content="
+Data Mesh - not such a new concept after all?</title><meta charset=utf-8><meta name=generator content="Hugo 0.95.0"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name=description content="
       Data Mesh, not such a new concept after all?
 
 
-    ">
-<link rel=stylesheet href=/css/main.min.440a169ee4b645c09fe67c6bb076175d3eeac345e8abe5925486ca71a3e5289d.css integrity="sha256-RAoWnuS2RcCf5nxrsHYXXT7qw0Xoq+WSVIbKcaPlKJ0=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=/css/markupHighlight.min.058b31f17db60602cc415fd63b0427e7932fbf35c70d8e341a4c39385f5f6f3e.css integrity="sha256-BYsx8X22BgLMQV/WOwQn55MvvzXHDY40Gkw5OF9fbz4=" crossorigin=anonymous type=text/css>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=anonymous>
-<link rel="shortcut icon" href=/favicon.ico type=image/x-icon>
-<link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png>
-<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png>
-<link rel=canonical href=https://arnerossmann.github.io/post/2022-01-28_datamesh-not-so-new/>
-<script type=text/javascript src=/js/anatole-header.min.2a2cd9614b7d007dfbb75e8da19e3a0fa872ceab53c6d000c00b7a0c89b85bfc.js integrity="sha256-KizZYUt9AH37t16NoZ46D6hyzqtTxtAAwAt6DIm4W/w=" crossorigin=anonymous></script>
-<script type=text/javascript src=/js/anatole-theme-switcher.min.7fd87181cdd7e8413aa64b6867bb32f3a8dc242e684fc7d5bbb9f600dbc2b6eb.js integrity="sha256-f9hxgc3X6EE6pktoZ7sy86jcJC5oT8fVu7n2ANvCtus=" crossorigin=anonymous></script>
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Data Mesh - not such a new concept after all?">
-<meta name=twitter:description content="Data Mesh, not such a new concept after all?">
-<script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"post","name":"Data Mesh - not such a new concept after all?","headline":"Data Mesh - not such a new concept after all?","alternativeHeadline":"","description":"
+    "><link rel=stylesheet href=/css/main.min.440a169ee4b645c09fe67c6bb076175d3eeac345e8abe5925486ca71a3e5289d.css integrity="sha256-RAoWnuS2RcCf5nxrsHYXXT7qw0Xoq+WSVIbKcaPlKJ0=" crossorigin=anonymous type=text/css><link rel=stylesheet href=/css/markupHighlight.min.058b31f17db60602cc415fd63b0427e7932fbf35c70d8e341a4c39385f5f6f3e.css integrity="sha256-BYsx8X22BgLMQV/WOwQn55MvvzXHDY40Gkw5OF9fbz4=" crossorigin=anonymous type=text/css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=anonymous><link rel="shortcut icon" href=/favicon.ico type=image/x-icon><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=canonical href=https://arnerossmann.github.io/post/2022-01-28_datamesh-not-so-new/><script type=text/javascript src=/js/anatole-header.min.d0408165d31a17f17bba83038bf54e86121f85021bdf936382e636f0f77a952f.js integrity="sha256-0ECBZdMaF/F7uoMDi/VOhhIfhQIb35NjguY28Pd6lS8=" crossorigin=anonymous></script>
+<script type=text/javascript src=/js/anatole-theme-switcher.min.65e936b591bf81484a5ac438c8e4ae6454fb25516d58ce911e4888d7f230bdc5.js integrity="sha256-Zek2tZG/gUhKWsQ4yOSuZFT7JVFtWM6RHkiI1/IwvcU=" crossorigin=anonymous></script><meta name=twitter:card content="summary"><meta name=twitter:title content="Data Mesh - not such a new concept after all?"><meta name=twitter:description content="Data Mesh, not such a new concept after all?"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","articleSection":"post","name":"Data Mesh - not such a new concept after all?","headline":"Data Mesh - not such a new concept after all?","alternativeHeadline":"","description":"
       Data Mesh, not such a new concept after all?
 
 
-    ","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/arnerossmann.github.io\/post\/2022-01-28_datamesh-not-so-new\/"},"author":{"@type":"Person","name":"Arne Rossmann"},"creator":{"@type":"Person","name":"Arne Rossmann"},"accountablePerson":{"@type":"Person","name":"Arne Rossmann"},"copyrightHolder":{"@type":"Person","name":"Arne Rossmann"},"copyrightYear":"2022","dateCreated":"2022-01-28T00:00:00.00Z","datePublished":"2022-01-28T00:00:00.00Z","dateModified":"2022-01-28T00:00:00.00Z","publisher":{"@type":"Organization","name":"Arne Rossmann","url":"https://arnerossmann.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/arnerossmann.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/arnerossmann.github.io\/post\/2022-01-28_datamesh-not-so-new\/","wordCount":"737","genre":["data mesh","architecture"],"keywords":["data product","data mesh","hexagonal architecture"]}</script>
-</head>
-<body>
-<header><div class="page-top
-animated fadeInDown">
-<a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false>
+    ","inLanguage":"en-us","isFamilyFriendly":"true","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/arnerossmann.github.io\/post\/2022-01-28_datamesh-not-so-new\/"},"author":{"@type":"Person","name":"Arne Rossmann"},"creator":{"@type":"Person","name":"Arne Rossmann"},"accountablePerson":{"@type":"Person","name":"Arne Rossmann"},"copyrightHolder":{"@type":"Person","name":"Arne Rossmann"},"copyrightYear":"2022","dateCreated":"2022-01-28T00:00:00.00Z","datePublished":"2022-01-28T00:00:00.00Z","dateModified":"2022-01-28T00:00:00.00Z","publisher":{"@type":"Organization","name":"Arne Rossmann","url":"https://arnerossmann.github.io/","logo":{"@type":"ImageObject","url":"https:\/\/arnerossmann.github.io\/favicon-32x32.png","width":"32","height":"32"}},"image":[],"url":"https:\/\/arnerossmann.github.io\/post\/2022-01-28_datamesh-not-so-new\/","wordCount":"737","genre":["data mesh","architecture"],"keywords":["data product","data mesh","hexagonal architecture"]}</script></head><body><header><div class="page-top
+animated fadeInDown"><a role=button class=navbar-burger data-target=navMenu aria-label=menu aria-expanded=false><span aria-hidden=true></span>
 <span aria-hidden=true></span>
-<span aria-hidden=true></span>
-<span aria-hidden=true></span>
-</a>
-<nav>
-<ul class=nav__list id=navMenu>
-<div class=nav__links>
-<li>
-<a href=/ title>Home</a>
-</li>
-<li>
-<a href=/post/ title>Posts</a>
-</li>
-<li>
-<a href=/presentations/ title>Presentations</a>
-</li>
-<li>
-<a href=/about/ title>About</a>
-</li>
-</div>
-<ul>
-<li>
-<a class=theme-switch title="Switch Theme">
-<i class="fas fa-adjust fa-fw" aria-hidden=true></i>
-</a>
-</li>
-</ul>
-</ul>
-</nav>
-</div>
-</header>
-<div class=wrapper>
-<aside><div class="sidebar
-animated fadeInDown">
-<div class=sidebar__content>
-<div class=logo-title>
-<div class=title>
-<img src=/images/profile.jpg alt="profile picture">
-<h3 title><a href=/>Arne Rossmann</a></h3>
-<div class=description>
-<p>Data Analytics Enterprise Architect</p>
-</div>
-</div>
-</div>
-<ul class=social-links>
-<li>
-<a href=https://www.linkedin.com/in/arnerossmann/ rel=me aria-label=Linkedin title=Linkedin>
-<i class="fab fa-linkedin fa-2x" aria-hidden=true></i>
-</a>
-</li>
-<li>
-<a href=https://github.com/arnerossmann rel=me aria-label=GitHub title=GitHub>
-<i class="fab fa-github fa-2x" aria-hidden=true></i>
-</a>
-</li>
-</ul>
-</div><footer class="footer footer--sidebar">
-<div class=by_farbox>
-<ul class=footer__list>
-<li class=footer__item>
-&copy;
+<span aria-hidden=true></span></a><nav><ul class=nav__list id=navMenu><div class=nav__links><li><a href=/ title>Home</a></li><li><a href=/post/ title>Posts</a></li><li><a href=/presentations/ title>Presentations</a></li><li><a href=/about/ title>About</a></li></div><ul><li><a class=theme-switch title="Switch Theme"><i class="fas fa-adjust fa-fw" aria-hidden=true></i></a></li></ul></ul></nav></div></header><div class=wrapper><aside><div class="sidebar
+animated fadeInDown"><div class=sidebar__content><div class=logo-title><div class=title><img src=/images/profile.jpg alt="profile picture"><h3 title><a href=/>Arne Rossmann</a></h3><div class=description><p>Data Analytics Enterprise Architect</p></div></div></div><ul class=social-links><li><a href=https://www.linkedin.com/in/arnerossmann/ rel=me aria-label=Linkedin title=Linkedin><i class="fab fa-linkedin fa-2x" aria-hidden=true></i></a></li><li><a href=https://github.com/arnerossmann rel=me aria-label=GitHub title=GitHub><i class="fab fa-github fa-2x" aria-hidden=true></i></a></li><li><a href=https://twitter.com/arnerossmann rel=me aria-label=Twitter title=Twitter><i class="fab fa-twitter fa-2x" aria-hidden=true></i></a></li></ul></div><footer class="footer footer--sidebar"><div class=by_farbox><ul class=footer__list><li class=footer__item>&copy;
 Arne Rossmann
-2022
-</li>
-<li class=footer__item>
-<a href=/imprint/ title>
-imprint
-</a>
-</li>
-</ul>
-</div>
-</footer>
-<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></div>
-</aside>
-<main>
-<div class=autopagerize_page_element>
-<div class=content>
-<div class="post
-animated fadeInDown">
-<div class=post-content>
-<div class=post-title>
-<h1>Data Mesh - not such a new concept after all?</h1>
-<div class=info>
-<em class="fas fa-calendar-day"></em>
-<span class=date>
-Fri, Jan 28, 2022
-</span>
+2022</li><li class=footer__item><a href=/imprint/ title>imprint</a></li></ul></div></footer><script type=text/javascript src=/js/medium-zoom.min.4a40b20209bc12e56cf77caff5feaa93fecd6b0d97d51b33afb0265a732ce636.js integrity="sha256-SkCyAgm8EuVs93yv9f6qk/7Naw2X1Rszr7AmWnMs5jY=" crossorigin=anonymous></script></div></aside><main><div class=autopagerize_page_element><div class=content><div class="post
+animated fadeInDown"><div class=post-content><div class=post-title><h1>Data Mesh - not such a new concept after all?</h1><div class=info><em class="fas fa-calendar-day"></em>
+<span class=date>Fri, Jan 28, 2022</span>
 <em class="fas fa-stopwatch"></em>
-<span class=reading-time>4-minute read</span>
-</div>
-</div><h1 id=not-such-a-new-concept-after-all>Not such a new concept after all?</h1>
-<p>I don&rsquo;t think that I have to tell much about the recent developments on Data Mesh (see <a href=https://martinfowler.com/articles/data-monolith-to-mesh.html>this</a> and <a href=https://martinfowler.com/articles/data-mesh-principles.html>that</a>), the world doesn&rsquo;t need another &ldquo;Data Mesh introduction&rdquo; article just to tell these things again.</p>
-<p>But when we dig deeper into that topic and look on the Data Product there might be some similarities ringing a bell. We&rsquo;ll come to this later.</p>
-<p>But how is a Data Product defined (by <a href=https://martinfowler.com/articles/data-mesh-principles.html>Zhamak</a>)?</p>
-<blockquote>
-<p>Data product is the node on the mesh that encapsulates three structural components required for its function, providing access to domain&rsquo;s analytical data as a product.</p>
-<p><strong>Code</strong>: it includes (a) code for data pipelines responsible for consuming, transforming and serving upstream data - data received from domain’s operational system or an upstream data product; (b) code for APIs that provide access to data, semantic and syntax schema, observability metrics and other metadata; (c) code for enforcing traits such as access control policies, compliance, provenance, etc.</p>
-</blockquote>
-<blockquote>
-<p><strong>Data and Metadata</strong>: well that’s what we are all here for, the underlying analytical and historical data in a polyglot form. Depending on the nature of the domain data and its consumption models, data can be served as events, batch files, relational tables, graphs, etc., while maintaining the same semantic. For data to be usable there is an associated set of metadata including data computational documentation, semantic and syntax declaration, quality metrics, etc; metadata that is intrinsic to the data e.g. its semantic definition, and metadeta that communicates the traits used by computational governance to implement the expected behavior e.g. access control policies.</p>
-</blockquote>
-<blockquote>
-<p><strong>Infrastructure</strong>: The infrastructure component enables building, deploying and running the data product&rsquo;s code, as well as storage and access to big data and metadata.</p>
-</blockquote>
-<p>Additionally, we have the three types of ports.</p>
-<ul>
-<li>Input Ports</li>
-<li>Output Ports</li>
-<li>Control Ports</li>
-</ul>
-<p><img src=/media/Data_Product.png alt="data product"></p>
-<p>This looks really interesting and quite new, if you remember how the usual work in the data & analytics domain was done previously. But times have changed, principles like Infrastructure as Code, serverles, DevOps & DataOps, SRE etc. have changed the game towards more code focussed and software engineering thinking.</p>
-<p>This morning I stumpled across a nice article on <a href=https://thecillu.medium.com/cloud-serverless-lock-in-doesnt-exist-if-your-team-knows-hexagoxal-architecture-4f64e93463aa>cloud serverless lock-in</a>. One approach here is the hexagonal architecture, in which Ports and Adapters are present.
-<img src=https://miro.medium.com/max/2400/1*Pg2q4iAyedW4pH9cEZNBhA.png alt="hexagonal architeccture"></p>
-<p>The goal of the hexagonal architecture is to encapsulate the logic within the core from the outer world. With this one, you can leverage some benefits:</p>
-<ul>
-<li>easier testing in isolation</li>
-<li>development can be done independently from external services</li>
-<li>ports and adapters are replaceable / extandable</li>
-</ul>
-<p>Now let&rsquo;s try to map it to the Data Product from Data Mesh. The Data Product is connected via the <strong>Input Port(s)</strong> to the data sources, this can be a database (e.g. via jdbc), a Message Queue / Message Broker like Kafka, Web endpoints etc.</p>
-<p>Then within the Data Product, the &ldquo;standard&rdquo; procedures of Load, Process and Provide are happening. They load the data from the source via the input port (or receive events via subscription e.g. to a Kafka topic), do some data transformation steps ( = process) and provide the outcome via the Output Port(s). This can be again a database or a S3 endpoint or again a topic in Kafka.
+<span class=reading-time>4-minute read</span></div></div><h1 id=not-such-a-new-concept-after-all>Not such a new concept after all?</h1><p>I don&rsquo;t think that I have to tell much about the recent developments on Data Mesh (see <a href=https://martinfowler.com/articles/data-monolith-to-mesh.html>this</a> and <a href=https://martinfowler.com/articles/data-mesh-principles.html>that</a>), the world doesn&rsquo;t need another &ldquo;Data Mesh introduction&rdquo; article just to tell these things again.</p><p>But when we dig deeper into that topic and look on the Data Product there might be some similarities ringing a bell. We&rsquo;ll come to this later.</p><p>But how is a Data Product defined (by <a href=https://martinfowler.com/articles/data-mesh-principles.html>Zhamak</a>)?</p><blockquote><p>Data product is the node on the mesh that encapsulates three structural components required for its function, providing access to domain&rsquo;s analytical data as a product.</p><p><strong>Code</strong>: it includes (a) code for data pipelines responsible for consuming, transforming and serving upstream data - data received from domain’s operational system or an upstream data product; (b) code for APIs that provide access to data, semantic and syntax schema, observability metrics and other metadata; (c) code for enforcing traits such as access control policies, compliance, provenance, etc.</p></blockquote><blockquote><p><strong>Data and Metadata</strong>: well that’s what we are all here for, the underlying analytical and historical data in a polyglot form. Depending on the nature of the domain data and its consumption models, data can be served as events, batch files, relational tables, graphs, etc., while maintaining the same semantic. For data to be usable there is an associated set of metadata including data computational documentation, semantic and syntax declaration, quality metrics, etc; metadata that is intrinsic to the data e.g. its semantic definition, and metadeta that communicates the traits used by computational governance to implement the expected behavior e.g. access control policies.</p></blockquote><blockquote><p><strong>Infrastructure</strong>: The infrastructure component enables building, deploying and running the data product&rsquo;s code, as well as storage and access to big data and metadata.</p></blockquote><p>Additionally, we have the three types of ports.</p><ul><li>Input Ports</li><li>Output Ports</li><li>Control Ports</li></ul><p><img src=/media/Data_Product.png alt="data product"></p><p>This looks really interesting and quite new, if you remember how the usual work in the data & analytics domain was done previously. But times have changed, principles like Infrastructure as Code, serverles, DevOps & DataOps, SRE etc. have changed the game towards more code focussed and software engineering thinking.</p><p>This morning I stumpled across a nice article on <a href=https://thecillu.medium.com/cloud-serverless-lock-in-doesnt-exist-if-your-team-knows-hexagoxal-architecture-4f64e93463aa>cloud serverless lock-in</a>. One approach here is the hexagonal architecture, in which Ports and Adapters are present.
+<img src=https://miro.medium.com/max/2400/1*Pg2q4iAyedW4pH9cEZNBhA.png alt="hexagonal architeccture"></p><p>The goal of the hexagonal architecture is to encapsulate the logic within the core from the outer world. With this one, you can leverage some benefits:</p><ul><li>easier testing in isolation</li><li>development can be done independently from external services</li><li>ports and adapters are replaceable / extandable</li></ul><p>Now let&rsquo;s try to map it to the Data Product from Data Mesh. The Data Product is connected via the <strong>Input Port(s)</strong> to the data sources, this can be a database (e.g. via jdbc), a Message Queue / Message Broker like Kafka, Web endpoints etc.</p><p>Then within the Data Product, the &ldquo;standard&rdquo; procedures of Load, Process and Provide are happening. They load the data from the source via the input port (or receive events via subscription e.g. to a Kafka topic), do some data transformation steps ( = process) and provide the outcome via the Output Port(s). This can be again a database or a S3 endpoint or again a topic in Kafka.
 The advantage of that encapsulation is that the Data Product can be developed without interfering other data pipelines from other Data Products, I can start with a simple pass-through and add further transformations steps as soon as I need them. And it can be easily extended on new output ports (e.g. starting with a S3 endpoint, later a REST endpoint)
-Sounds quite similar to the hexagonal architecture? Yes, and reflects the movement to more Microservices in the non-analytical world. And on the Data & Analytics domain we see similar patterns, Data Mesh opens the door towards Domain Driven Development, Serverless, Data Products (within Data Mesh), Event-Driven are pushing towards Microservices / more granular processes.</p>
-<p>So, back to the initial question: Is Data Mesh not so new? Well, from my view it is and it is not.</p>
-<ul>
-<li>It is not: Data Mesh uses approaches and concepts from the Software Engineering domain like domain driven design, hexagonal architecture, Microservices etc.</li>
-<li>It is: these concepts were not the standard way of working in Data & Analytics Space in the last years and therefore a quite new approach. But it is good and helps to bring the data-driven thinking and data-diven practise forward.</li>
-</ul>
-</div>
-<div class=post-footer>
-<div class=info>
-<span class=separator><a class=category href=/categories/data-mesh/>data mesh</a><a class=category href=/categories/architecture/>architecture</a></span>
-<span class=separator><a class=tag href=/tags/data-product/>data product</a><a class=tag href=/tags/data-mesh/>data mesh</a><a class=tag href=/tags/hexagonal-architecture/>hexagonal architecture</a></span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</main>
-</div><footer class="footer footer--base">
-<div class=by_farbox>
-<ul class=footer__list>
-<li class=footer__item>
-&copy;
+Sounds quite similar to the hexagonal architecture? Yes, and reflects the movement to more Microservices in the non-analytical world. And on the Data & Analytics domain we see similar patterns, Data Mesh opens the door towards Domain Driven Development, Serverless, Data Products (within Data Mesh), Event-Driven are pushing towards Microservices / more granular processes.</p><p>So, back to the initial question: Is Data Mesh not so new? Well, from my view it is and it is not.</p><ul><li>It is not: Data Mesh uses approaches and concepts from the Software Engineering domain like domain driven design, hexagonal architecture, Microservices etc.</li><li>It is: these concepts were not the standard way of working in Data & Analytics Space in the last years and therefore a quite new approach. But it is good and helps to bring the data-driven thinking and data-diven practise forward.</li></ul></div><div class=post-footer><div class=info><span class=separator><a class=category href=/categories/data-mesh/>data mesh</a><a class=category href=/categories/architecture/>architecture</a></span>
+<span class=separator><a class=tag href=/tags/data-product/>data product</a><a class=tag href=/tags/data-mesh/>data mesh</a><a class=tag href=/tags/hexagonal-architecture/>hexagonal architecture</a></span></div></div></div></div></div></main></div><footer class="footer footer--base"><div class=by_farbox><ul class=footer__list><li class=footer__item>&copy;
 Arne Rossmann
-2022
-</li>
-<li class=footer__item>
-<a href=/imprint/ title>
-imprint
-</a>
-</li>
-</ul>
-</div>
-</footer>
-<script type=text/javascript src=/js/medium-zoom.min.71100d84fab0ad794b8399a66ac810700cc78d703f715dc10af4d7ba7b761362.js integrity="sha256-cRANhPqwrXlLg5mmasgQcAzHjXA/cV3BCvTXunt2E2I=" crossorigin=anonymous></script></body>
-</html>
+2022</li><li class=footer__item><a href=/imprint/ title>imprint</a></li></ul></div></footer><script type=text/javascript src=/js/medium-zoom.min.4a40b20209bc12e56cf77caff5feaa93fecd6b0d97d51b33afb0265a732ce636.js integrity="sha256-SkCyAgm8EuVs93yv9f6qk/7Naw2X1Rszr7AmWnMs5jY=" crossorigin=anonymous></script></body></html>
