@@ -8,7 +8,11 @@ author = "Arne Rossmann"
 
 # About me
 
-I'm an enthuist Enterprise Architect for Big Data, Cloud, Analytics and the related topics. I love to learn new technologies and methods and play around with them. Apart from the technical perspective I'm interested in agile methodologies, coaching teams on their journey towards agile and DevOps.
+I'm an enthuist Enterprise Architect for Big Data, Cloud, Analytics and the related topics. I love to learn new technologies and methods and play around with them. Apart from the technical perspective I'm interested in agile methodologies, coaching teams on their journey towards agile and DevOps. 
+
+## Current research topics 
+
+Currently I'm researching and experimenting with KnowledgeGraphs and GraphQL.
 
 ## Technologies
 
