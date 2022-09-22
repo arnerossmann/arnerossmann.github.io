@@ -1,3 +1,3 @@
 module github.com/arnerossmann/arnerossmann.github.io
 
-go 1.17
+go 1.19.1
