@@ -1,16 +1,11 @@
-# fly.toml file generated for dataworldliving on 2022-09-21T14:57:16+02:00
+# fly.toml file generated for dataworldliving on 2022-09-21T21:17:26+02:00
 
 app = "dataworldliving"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
 
-[build]
-  builder = "paketobuildpacks/builder:base"
-  buildpacks = ["gcr.io/paketo-buildpacks/go"]
-
 [env]
-  PORT = "8080"
 
 [experimental]
   allowed_public_ports = []
@@ -18,7 +13,7 @@ processes = []
 
 [[services]]
   http_checks = []
-  internal_port = 8080
+  internal_port = 8043
   processes = ["app"]
   protocol = "tcp"
   script_checks = []

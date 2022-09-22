@@ -1,4 +1,4 @@
-baseURL = 'https://arnerossmann.github.io/'
+baseURL = 'https://dataworldliving.fly.dev'
 languageCode = 'en-us'
 title = 'Arne Rossmann'
 theme = "anatole"
