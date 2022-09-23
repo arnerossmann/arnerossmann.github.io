@@ -1,9 +1,9 @@
-title = "Arne Rossmann"
+title = "Data World Living"
 author = "Arne Rossmann"
-description = "Data Analytics Enterprise Architect"
+description = "I'm Arne Rossmann, a Data Analytics Enterprise Architect & Innovation Enthusiast"
 profilePicture = "images/profile.jpg"
 displayMode = "dark"
-contentratio = 0.7
+contentratio = 0.85
 mainSections = ["post"]
 
 ## Social links
