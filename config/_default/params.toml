@@ -22,3 +22,8 @@ url = "https://github.com/arnerossmann"
 icon = "fab fa-twitter"
 title = "Twitter"
 url = "https://twitter.com/arnerossmann"
+
+[[socialIcons]]
+icon = "fab fa-mastodon"
+title = "Mastodon"
+url = "https://techhub.social/@arnerossmann"
