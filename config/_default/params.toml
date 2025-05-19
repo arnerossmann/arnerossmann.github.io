@@ -5,6 +5,7 @@ profilePicture = "images/profile.jpg"
 displayMode = "dark"
 contentratio = 0.85
 mainSections = ["post"]
+doNotLoadAnimations = true
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
